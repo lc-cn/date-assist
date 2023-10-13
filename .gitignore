@@ -1,1 +1,4 @@
 /src/test.ts
+/package-lock.json
+/node_modules/
+/lib/
