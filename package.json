@@ -1,7 +1,7 @@
 {
-  "name": "@lc-cn/ts-dev-template",
+  "name": "date-helper",
   "version": "1.0.0",
-  "description": "ts开发环境配置",
+  "description": "一个时间日期辅助库 a datetime helper",
   "main": "lib/index.js",
   "scripts": {
     "start": "node .",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lc-cn/ts-dev-template.git"
+    "url": "git+https://github.com/lc-cn/date-helper.git"
   },
   "keywords": [
     "ts",
@@ -24,9 +24,9 @@
   "author": "凉菜",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lc-cn/ts-dev-template/issues"
+    "url": "https://github.com/lc-cn/date-helper/issues"
   },
-  "homepage": "https://github.com/lc-cn/ts-dev-template#readme",
+  "homepage": "https://github.com/lc-cn/date-helper#readme",
   "devDependencies": {
     "@types/node": "latest",
     "dtsc": "^2.2.3",
