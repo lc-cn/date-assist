@@ -1,7 +1,7 @@
 {
-  "name": "date-helper",
+  "name": "date-assist",
   "version": "1.0.0",
-  "description": "一个时间日期辅助库 a datetime helper",
+  "description": "一个时间日期辅助库 a datetime assist",
   "main": "lib/index.js",
   "scripts": {
     "start": "node .",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lc-cn/date-helper.git"
+    "url": "git+https://github.com/lc-cn/date-assist.git"
   },
   "keywords": [
     "ts",
@@ -24,9 +24,9 @@
   "author": "凉菜",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lc-cn/date-helper/issues"
+    "url": "https://github.com/lc-cn/date-assist/issues"
   },
-  "homepage": "https://github.com/lc-cn/date-helper#readme",
+  "homepage": "https://github.com/lc-cn/date-assist#readme",
   "devDependencies": {
     "@types/node": "latest",
     "dtsc": "^2.2.3",
