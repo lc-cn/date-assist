@@ -131,11 +131,12 @@ export function isLegalHoliday(date:Date|string|number){
  * 获取下个工作日 *
  * @param date
  */
-export function getNextLegalWorkday(date:Date|string|number){
+export function getNextLegalWorkday<T extends Date|string|number>(date:T):T{
     if(!isValidDate(date)) throw new Error('invalid date')
     const d = new Date(date)
     d.setDate(d.getDate() + 1)
-    if(isLegalWorkday(d)) return d
-    return getNextLegalWorkday(d)
+    if(isLegalWorkday(d)) return (date instanceof Date?d:typeof date==='string'?format(d,'date'):d.getTime()) as T
+    const n=(date instanceof Date?d:typeof date==='string'?format(d,'date'):d.getTime()) as T
+    return getNextLegalWorkday(n)
 }
 
