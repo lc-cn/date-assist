@@ -1,6 +1,6 @@
 {
   "name": "date-assist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个时间日期辅助库 a datetime assist",
   "main": "lib/index.js",
   "scripts": {
