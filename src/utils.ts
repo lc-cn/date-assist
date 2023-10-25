@@ -127,3 +127,15 @@ export function isLegalHoliday(date:Date|string|number){
     return !isLegalWorkday(date)
 }
 
+/**
+ * 获取下个工作日 *
+ * @param date
+ */
+export function getNextLegalWorkday(date:Date|string|number){
+    if(!isValidDate(date)) throw new Error('invalid date')
+    const d = new Date(date)
+    d.setDate(d.getDate() + 1)
+    if(isLegalWorkday(d)) return d
+    return getNextLegalWorkday(d)
+}
+
